@@ -1,0 +1,115 @@
+body {
+	width: 1000px;
+	margin: auto;
+	font-family: Tahoma;
+	font-size: smaller;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+em {
+	font-style: italic;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+h1 {
+	font-size: 150%;
+}
+h2 {
+	font-size: 130%;
+}
+
+.cajita {
+	display: inline-block; 
+	width: 15px; 
+	height: 15px; 
+}
+
+#botonera {
+	height: 30px;
+	background-color: black;
+}
+#botonera li {
+	float: left;
+}
+#botonera a {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#botonera a:hover, #botonera li.activo a {
+	background-color: orange;
+	color: white;
+}
+
+#contenido {
+	background-color: white;
+	min-height: 400px;
+	padding: 20px;
+}
+#pie {
+	background-color: black;
+	color: white;
+	font-size: 80%;
+	padding: 5px;
+}
+
+.error {
+	border-left: 1px dashed red;
+	color: red;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+.comentario {
+
+	border: 1px solid orange;
+	padding: 1em;
+	margin-bottom: 1em;
+
+}
+
+.comentario quote {
+
+	font-family: Georgia;
+	color: gray;
+	font-size: 130%;
+	line-height: 2em;
+
+}
+
+a.alta_producto {
+
+	display: inline-block;
+	float: right;
+	background-image: url(../img/alta.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	color: gray;
+	height: 30px;
+	font-size: 80%;
+
+}
+
+a.alta_producto:hover {
+	color: orange;
+}
+
+.oferta {
+	border: red 1px solid;
+}
+
+.bajo-stock {
+	background-color: yellow;
+}
